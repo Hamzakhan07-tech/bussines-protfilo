@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamza Dev | Portfolio</title>
+  <link rel="stylesheet" href="home.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.js">
+</head>
+<body>
+
+  <!-- Mouse-tracking background -->
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- Header/Navbar -->
+  <header class="navbar">
+    <div class="logo">code<span>Crafter</span></div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="servicrs.html">Services</a>
+      <a href="project.html">Projects</a>
+      <a href="aibuilder.html">AI Builder</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="typing">Hi, I'm Hamza – I Build High-Impact Websites</h1>
+    <p>Modern, fast, and client-converting designs for serious businesses.</p>
+    <a href="contact.html" class="btn">Hire Me</a>
+  </section>
+
+  <!-- Market That Converts Section -->
+  <section class="market">
+    <h2>Market That Converts</h2>
+    <div class="platforms">
+      <div class="platform">
+        <i class="fab fa-tiktok"></i>
+        <h3>TikTok Strategies</h3>
+        <p>Drive viral attention and instant website traffic.</p>
+      </div>
+      <div class="platform">
+        <i class="fab fa-instagram"></i>
+        <h3>Instagram Funnels</h3>
+        <p>Turn views into DMs and consultations.</p>
+      </div>
+      <div class="platform">
+        <i class="fab fa-youtube"></i>
+        <h3>YouTube SEO</h3>
+        <p>Rank higher, reach wider, and get leads daily.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Why Me Section -->
+  <section class="why-me">
+    <h2>Why Choose Me?</h2>
+    <div class="features">
+      <div class="feature"><i class="fas fa-bolt"></i><p>Lightning Fast</p></div>
+      <div class="feature"><i class="fas fa-mobile-alt"></i><p>100% Responsive</p></div>
+      <div class="feature"><i class="fas fa-brain"></i><p>Creative UI</p></div>
+      <div class="feature"><i class="fas fa-code"></i><p>Clean Code</p></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p>&copy; 2025 Hamza Web Studio. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  
+  </script>
+  <script src="about.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

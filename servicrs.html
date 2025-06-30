@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Hamza Dev</title>
+  <link rel="stylesheet" href="services.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.js">
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Hamza<span>Dev</span></div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="servicrs.html" class="active">Services</a>
+      <a href="project.html">Projects</a>
+      <a href="aibuilder.html">AI Builder</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Services Section -->
+  <section class="services-section">
+<div class="service-gallery">
+  <div class="service-card">
+    <img src="img/webdev.png" alt="Web Development" class="float-img" />
+    <h3>Web Development</h3>
+  </div>
+  <div class="service-card">
+    <img src="img/design.png" alt="Website Design" class="float-img" />
+    <h3>Website Design</h3>
+  </div>
+  <div class="service-card">
+    <img src="img/seo.png" alt="SEO Optimization" class="float-img" />
+    <h3>SEO Optimization</h3>
+  </div>
+</div>
+
+    </div>
+    <a class="btn-whatsapp" href="https://wa.me/923000000000" target="_blank">
+      <i class="fab fa-whatsapp"></i> Book a Consultation
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p>&copy; 2025 Hamza Web Studio. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+  <script src="services.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Hamza Dev</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.js">
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Hamza<span>Dev</span></div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="servicrs.html">Services</a>
+      <a href="project.html">Projects</a>
+      <a href="aibuilder.html">AI Builder</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h1>Contact Me</h1>
+    <p>Feel free to reach out for web development or design services!</p>
+    <div class="contact-box">
+      <div class="contact-info">
+        <i class="fas fa-phone"></i>
+        <h3>WhatsApp</h3>
+        <a href="https://wa.me/03709703473" target="_blank">+92 3709703473</a>
+      </div>
+      <div class="contact-info">
+        <i class="fas fa-envelope"></i>
+        <h3>Email</h3>
+        <a href="mailto:hamzadev@email.com">hamzadev@email.com</a>
+      </div>
+      <div class="contact-info">
+        <i class="fas fa-location-dot"></i>
+        <h3>Location</h3>
+        <p>Islamabad, Pakistan</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p>&copy; 2025 Hamza Web Studio. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+  <script src="contact.js"></script>
+</body>
+</html>
