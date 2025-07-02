@@ -603,6 +603,7 @@ canvas#bgCanvas {
   text-decoration: none;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px #25d366a0;
+  justify-content: center;
 }
 
 .btn-whatsapp:hover {
